@@ -1,14 +1,15 @@
 import Demo from  "./demo"
 
 function App() {
+  const username="chai our code"
 
 
   return (
     <>
      
-      <p>welcome To React</p>
+      <p>welcome To React </p>
       <Demo/>
-      <h1>hello Vaishnavi</h1>
+      <h1>hello Vaishnavi {username}</h1>
    
       
     </>

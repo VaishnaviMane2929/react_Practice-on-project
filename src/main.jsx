@@ -23,20 +23,23 @@ function MyApp() {
 //     Children:' hello this use the custom react '
 // }
 
-const anotherElement=(
-    <a href="https://google.com"> visit google</a>
+const anotherElement= (
+     <a href="https://google.com" target='_blank'>visit link</a>
 
 )
 
-const reactElement=  React.createElement(
-    'a',
-    {href:'https://google.com',terget: '_blank'}, 'click and visit the google'
+const anotherUser="chai our ocde"
+
+const reactElement =  React.createElement(
+    'a', 
+    {href:'https://google.com',terget: '_blank'}, 'click and visit the google',
+    anotherElement
     
 )
 
 
 ReactDom.createRoot(document.getElementById('root')).render(
   
-    reactElement
+reactElement
   
 )
