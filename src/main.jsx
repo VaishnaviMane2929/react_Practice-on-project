@@ -13,15 +13,15 @@ function MyApp() {
 
 }
 
-const ReactElement= {
-    type: 'a',
-    props:{
-        href: 'https://google.com',
-        terget: '_blank'
+// const ReactElement= {
+//     type: 'a',
+//     props:{
+//         href: 'https://google.com',
+//         terget: '_blank'
 
-    },
-    Children:' hello this use the custom react '
-}
+//     },
+//     Children:' hello this use the custom react '
+// }
 
 const anotherElement=(
     <a href="https://google.com"> visit google</a>
