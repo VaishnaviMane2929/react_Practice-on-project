@@ -1,7 +1,7 @@
 import Demo from  "./demo"
 
 function App() {
-  const username="chai our code"
+  const username=" welcome to react project "
 
 
   return (
